@@ -95,7 +95,7 @@ you may modify `datasets/dataset_hrsc.py` to adapt code to your own data.
 
 ## Train Model
 ```ruby
-python main.py --data_dir dataPath --epochs 80 --batch_size 16 --dataset dota --phase train
+python main.py --data_dir dataPath --num_epoch 80 --batch_size 16 --dataset dota --phase train
 ```
 
 ## Test Model
